@@ -40,14 +40,24 @@ $('#slideshow').slideshow({
 });
 
 /*
- * other options
- * - delay (integer, 5000): amount of time to delay, in ms
- * - autoplay (boolean, true): autoplay?
- * - resize_on_slide (boolean, false): resize height on slide show?
+ * OTHER OPTIONS
+ * - delay (integer, 5000):
+ *     amount of time to delay, in ms
+ * - autoplay (boolean, true):
+ *     autoplay?
+ * - resize_on_slide (boolean, false):
+ *     resize height on slide show?
+ * - set_h_on_resize (boolean, true):
+ *     reset slideshow height on window resize? useful for responsive designs
+ *     will use $.debounce https://github.com/ncherro/jquery-debounce, if loaded
  * - on_class (string, 'on'): 
- * - prev_html (string, '<i class="ico-arr-left" />'): HTML for the 'previous' arrow. leave blank to omit
- * - next_html (string, '<i class="ico-arr-right" />'): HTML for the 'previous' arrow. leave blank to omit
- * - cur_html (string, '<i class="ico-bullet">&bull;</i>'): HTML for the 'current' dot. leave blank to omit
+ *     css class to be appled to the 'current' dot
+ * - prev_html (string, '<i class="ico-arr-left" />'):
+ *     HTML for the 'previous' arrow. leave blank to omit
+ * - next_html (string, '<i class="ico-arr-right" />'):
+ *     HTML for the 'previous' arrow. leave blank to omit
+ * - cur_html (string, '<i class="ico-bullet">&bull;</i>'):
+ *     HTML for the 'current' dot. leave blank to omit
  */
 ```
 
