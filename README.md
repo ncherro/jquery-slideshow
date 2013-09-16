@@ -74,10 +74,10 @@ $('#slideshow').slideshow({
 
 .slides {
   position: relative;
-  transition: left 2s;
-  -moz-transition: left 2s;
-  -webkit-transition: left 2s;
-  -o-transition: left 2s;
+  transition: left 0.2s ease-in-out;
+  -moz-transition: left 0.2s ease-in-out;
+  -webkit-transition: left 0.2s ease-in-out;
+  -o-transition: left 0.2s ease-in-out;
 }
 
 .slide {
